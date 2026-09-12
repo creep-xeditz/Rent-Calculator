@@ -1,0 +1,6 @@
+{
+  "name": "Rent Calculator",
+  "description": "Monthly rent, electricity, and water charge register and calculator for tenants with automatic carry-forward and Excel export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

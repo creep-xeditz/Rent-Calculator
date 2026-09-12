@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  .font-serif-heading {
+    font-family: 'Newsreader', Georgia, serif;
+  }
+
+  .font-mono-nums {
+    font-family: 'IBM Plex Mono', Menlo, monospace;
+    font-feature-settings: "tnum" 1;
+  }
+}
+
+/* Custom scrollbars for ledger */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede3;
+}
+::-webkit-scrollbar-thumb {
+  background: #c8c0ad;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a99f89;
+}
