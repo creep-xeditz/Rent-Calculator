@@ -1,0 +1,7 @@
+1.npm install
+2.npm run build
+3.npm install @capacitor/core @capacitor/cli @capacitor/android
+4.npx cap init "Rent Calculator" com.rentcalculator.app --web-dir=dist
+5.npx cap add android
+6.npx cap sync
+7.npx cap open android
